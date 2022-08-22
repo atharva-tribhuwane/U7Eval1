@@ -1,4 +1,4 @@
-All users whose gender is male ---> db.eval1collection.find({key:"Male"});
+All users whose gender is male ---> db.eval1collection.find({"Gender":"Male"});
 
 
 
@@ -6,7 +6,7 @@ All users whose gender is male ---> db.eval1collection.find({key:"Male"});
 all users whose ID is even----->  
 
 
-Users who currently live in Japan-----> db.eval1collection.find({key:"Male"});
+Users who currently live in Japan-----> db.eval1collection.find({"native":"Japan"});
 Users who are female and live in India
 Users who are more than 25 years old
 Users who are less than 50 years old and live in United State
